@@ -3,3 +3,15 @@
 
 # ignore venv
 venv/*
+
+# ignore info folder
+info/*
+
+# ignore backup
+bkp/*
+
+# igonre .gitcommand
+.gitcommand
+
+# pythoncache
+libs/__pycache__
