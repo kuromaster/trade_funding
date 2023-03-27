@@ -11,6 +11,8 @@ source venv/bin/activate
 ```bash
 pip install -r requriements.txt
 ```
+
+**ADD API_KEY and API_SECRET TO .env**
 ```sh
 (venv) root@srv01:/opt/funding# cat .env
 export API_KEY="..."
