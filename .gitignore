@@ -1,0 +1,5 @@
+# igonre .env
+.env
+
+# ignore venv
+venv/*
