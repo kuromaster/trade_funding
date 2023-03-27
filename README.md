@@ -11,6 +11,22 @@ source venv/bin/activate
 ```bash
 pip install -r requriements.txt
 ```
+**TREE SCRIPT**
+```
+(venv) root@bybitbinance:/opt/funding# tree -L 2
+.
+├── libs
+│   ├── __pycache__
+│   ├── bybit_api.py
+│   ├── cprint.py
+│   └── vars.py
+├── main.py
+├── requirements.txt
+└── venv
+    ├── bin
+    ├── lib
+    └── pyvenv.cfg
+```
 
 **ADD API_KEY and API_SECRET TO .env**
 ```sh
