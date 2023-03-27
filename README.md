@@ -19,6 +19,7 @@ export API_KEY="..."
 export API_SECRET="..."
 ```
 
+**RUN SCRIPT**
 ```bash
 screen -S FUNDING
 ```
