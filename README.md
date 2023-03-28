@@ -19,6 +19,7 @@ source venv/bin/activate
 pip install -r requriements.txt
 ```
 **ADD API_KEY and API_SECRET TO .env**
+Заменить _KEY_ и _SECRET_ на свои API_KEY, API_SECRET
 ```sh
 echo 'export API_KEY="KEY"' > .env
 ```
