@@ -1,6 +1,6 @@
 **PREPARE TO RUN:**
 ```sh
-apt install -y python3-pip python3-dev python3-virtualenv
+apt install -y python3-pip python3-dev python3-virtualenv vim screen
 ```
 
 ```sh
@@ -18,7 +18,7 @@ source venv/bin/activate
 ```sh
 pip install -r requriements.txt
 ```
-
+**ADD API_KEY and API_SECRET TO .env**
 ```sh
 echo 'export API_KEY="KEY"' > .env
 ```
@@ -42,13 +42,6 @@ echo 'export API_SECRET="SECRET"' >> .env
     ├── bin
     ├── lib
     └── pyvenv.cfg
-```
-
-**ADD API_KEY and API_SECRET TO .env**
-```sh
-(venv) root@srv01:/opt/funding# cat .env
-export API_KEY="..."
-export API_SECRET="..."
 ```
 
 **RUN SCRIPT**
