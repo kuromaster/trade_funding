@@ -4,7 +4,7 @@ apt install -y python3-pip python3-dev python3-virtualenv
 ```
 
 ```sh
-cd /opt ; mkdir funding ; cd funding
+cd /opt ; git clone https://github.com/kuromaster/trade_funding.git funding ; cd funding
 ```
 
 ```sh
