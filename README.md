@@ -52,6 +52,10 @@ screen -S FUNDING
 ```
 
 ```sh
+cd /opt/funding
+```
+
+```sh
 source venv/bin/activate
 ```
 
