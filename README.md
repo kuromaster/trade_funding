@@ -6,7 +6,7 @@ apt install -y python3-pip python3-dev python3-virtualenv
 python3 -m virtualenv venv
 ```
 ```bash
-cd /opt ; mkdir funding
+cd /opt ; mkdir funding ; cd funding
 ```
 
 ```bash
