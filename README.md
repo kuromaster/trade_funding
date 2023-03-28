@@ -1,21 +1,32 @@
 **PREPARE TO RUN:**
-```bash
+```sh
 apt install -y python3-pip python3-dev python3-virtualenv
 ```
 
-```bash
+```sh
 cd /opt ; mkdir funding ; cd funding
 ```
-```bash
+
+```sh
 python3 -m virtualenv venv
 ```
 
-```bash
+```sh
 source venv/bin/activate
 ```
-```bash
+
+```sh
 pip install -r requriements.txt
 ```
+
+```sh
+echo 'export API_KEY="KEY"' > .env
+```
+
+```sh
+echo 'export API_SECRET="SECRET"' >> .env
+```
+
 **TREE SCRIPT**
 ```
 (venv) root@bybitbinance:/opt/funding# tree -L 2
@@ -43,6 +54,10 @@ export API_SECRET="..."
 **RUN SCRIPT**
 ```bash
 screen -S FUNDING
+```
+
+```sh
+source venv/bin/activate
 ```
 
 ```bash
