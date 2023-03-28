@@ -1,4 +1,4 @@
-**PREPARE TO RUN:**
+## PREPARE TO RUN:
 ```sh
 apt install -y python3-pip python3-dev python3-virtualenv vim screen
 ```
@@ -18,7 +18,8 @@ source venv/bin/activate
 ```sh
 pip install -r requriements.txt
 ```
-**ADD API_KEY and API_SECRET TO .env**
+## ADD API_KEY and API_SECRET TO .env
+
 Заменить _KEY_ и _SECRET_ на свои API_KEY, API_SECRET
 ```sh
 echo 'export API_KEY="KEY"' > .env
@@ -28,7 +29,7 @@ echo 'export API_KEY="KEY"' > .env
 echo 'export API_SECRET="SECRET"' >> .env
 ```
 
-**TREE SCRIPT**
+## TREE SCRIPT
 ```
 (venv) root@bybitbinance:/opt/funding# tree -L 2
 .
@@ -45,7 +46,7 @@ echo 'export API_SECRET="SECRET"' >> .env
     └── pyvenv.cfg
 ```
 
-**RUN SCRIPT**
+## RUN SCRIPT
 ```bash
 screen -S FUNDING
 ```
